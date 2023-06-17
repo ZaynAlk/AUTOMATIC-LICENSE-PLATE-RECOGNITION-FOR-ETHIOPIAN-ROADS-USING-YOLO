@@ -1,4 +1,7 @@
 # AUTOMATIC-LICENSE-PLATE-RECOGNITION-FOR-ETHIOPIAN-ROADS-USING-YOLO
+
+This repository contains a method to detect  and recognize Ethiopian license plates as a representation of vehicle presence in an image. We have utilized You Only Look Once version 3 (YOLO v3&v4) to detect the plates inside an input image. The method has the advantages of high accuracy and real-time performance, thanks to YOLO v3  and v4 architecture. The presented system receives a series of vehicle images and produces the processed image with added bounding-boxes containing the vehicles' license plates. The flow of how we have trained and tested the application is published on medium(links) you can read the article .
+
 If you want to test the already trained file you can use my_data folder all the trained weights for both yolov3 and yolov4 had it in case of license plate detection and recognition.
 #all the weight files which are trained by me can find in yolo-utils folder
 #you can add new or your custom dataset  test images for detection in detectiontestpic folder, or you can use my own test images which founds in the folder 
