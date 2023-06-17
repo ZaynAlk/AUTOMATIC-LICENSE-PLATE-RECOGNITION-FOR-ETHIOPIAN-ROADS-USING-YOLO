@@ -10,5 +10,5 @@ if you want to train from scratch which lets you use another version of yolo use
 #you can test real-time videos for Ethiopian license plate detection by running the below code which finds in … file 
 
 ./darknet detector demo data/obj.data cfg/yolov3_detection_training.cfg data/yolov3_detection_training_last.weights -dont_show data/img-3.MOV -out_filename img-3result.MOV
-# I hope this can help you to detect and recognizes Ethiopian license plates.
+I hope this can help you to detect and recognizes Ethiopian license plates.
 
